@@ -12,7 +12,6 @@ router.post("/",(req,res,next)=>{
     })
 })
 router.get("/:id",(req,res,next)=>{
-    // const id =req.pa
     res.status(200).json({
         msg:req.params.id
     })
